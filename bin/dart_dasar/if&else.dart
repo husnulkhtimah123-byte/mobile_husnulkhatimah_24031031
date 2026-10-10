@@ -1,6 +1,6 @@
 void main(){
-  var nilai=70;
-  var absen=90;
+  var nilai=75;
+  var absen=75;
   
   if (nilai >= 75 && absen >= 75){
     print('Selamat Anda Lulus');
