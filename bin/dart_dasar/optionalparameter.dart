@@ -4,5 +4,5 @@ void sayhello(String Firstname, [String? Lastname]){
   
   void main(){
     sayhello('Husnul');
-    sayhello('sara', 'wijayanto');
+    sayhello('Husnul', 'Khatimah');
   }
