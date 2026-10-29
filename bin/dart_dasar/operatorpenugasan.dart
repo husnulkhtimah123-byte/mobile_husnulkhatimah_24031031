@@ -1,41 +1,55 @@
 void main() {
-  print("=== Augmented Assignment ===");
+  // Operator Aritmatika
+  print("=== Operator Aritmatika ===");
 
-  var a = 10;
-  print("Nilai awal a = $a");
+  int a = 10;
+  int b = 3;
 
-  a += 10;
-  print("a += 10 : $a");
+  print("Penjumlahan: ${a + b}");
+  print("Pengurangan: ${a - b}");
+  print("Perkalian: ${a * b}");
+  print("Pembagian: ${a / b}");
+  print("Pembagian bulat: ${a ~/ b}");
+  print("Sisa bagi: ${a % b}");
 
-  a -= 10;
-  print("a -= 10 : $a");
+  // Augmented Assignment
+  print("\n=== Augmented Assignment ===");
 
-  a *= 10;
-  print("a *= 10 : $a");
+  var c = 10;
+  print("Nilai awal c = $c");
 
-  a ~/= 10;
-  print("a ~/= 10 : $a");
+  c += 10;
+  print("c += 10 : $c");
 
-  // Pembagian biasa menggunakan double
-  var c = 10.0;
-  c /= 10;
-  print("c /= 10 : $c");
+  c -= 10;
+  print("c -= 10 : $c");
 
+  c *= 10;
+  print("c *= 10 : $c");
+
+  c ~/= 10;
+  print("c ~/= 10 : $c");
+
+  var d = 10.0;
+  d /= 10;
+  print("d /= 10 : $d");
+
+  // Increment dan Decrement
   print("\n=== Increment dan Decrement ===");
 
-  var b = 10;
+  var e = 10;
 
   // Pre-increment
-  print("++b = ${++b}");
+  print("++e = ${++e}");
 
   // Post-increment
-  print("b++ = ${b++}");
-  print("Nilai b sekarang = $b");
+  print("e++ = ${e++}");
+  print("Nilai e sekarang = $e");
 
   // Pre-decrement
-  print("--b = ${--b}");
+  print("--e = ${--e}");
 
   // Post-decrement
-  print("b-- = ${b--}");
-  print("Nilai b sekarang = $b");
+  print("e-- = ${e--}");
+  print("Nilai e sekarang = $e");
 }

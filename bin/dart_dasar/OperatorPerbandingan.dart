@@ -1,13 +1,11 @@
-void main(){
-  var result1=10==10;
-  var result2=10!=10;
-  var result3=10>10;
-  var result4=10<10;
-  var result5=10>=10;
+void main() {
+  int a = 10;
+  int b = 5;
 
-  print(result1);
-  print(result2); 
-  print(result3);
-  print(result4); 
-  print(result5);
+  print("a == b : ${a == b}");
+  print("a != b : ${a != b}");
+  print("a > b  : ${a > b}");
+  print("a < b  : ${a < b}");
+  print("a >= b : ${a >= b}");
+  print("a <= b : ${a <= b}");
 }

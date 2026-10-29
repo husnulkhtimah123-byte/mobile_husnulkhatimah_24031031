@@ -1,18 +1,18 @@
 void main(){
   var inputString='1000';
-  var inputint=int.parse(inputString);
-  var inputdouble=double.parse(inputString);
+  var inputInt=int.parse(inputString);
+  var inputDouble=double.parse(inputString);
 
-  var doublefromint=inputint.toDouble();
-  var intfromdouble=inputdouble.toInt();
+  var doubleFromInt=inputInt.toDouble();
+  var intFromDouble=inputDouble.toInt();
 
-  var Stringfromint=inputint.toString();
-  var Stringfromdouble=inputdouble.toString();
+  var StringFromInt=inputInt.toString();
+  var StringFromDouble=inputDouble.toString();
 
-  print(inputint);
-  print(inputdouble);
-  print(doublefromint);
-  print(intfromdouble);
-  print(Stringfromint);
-  print(Stringfromdouble);
+  print(inputInt);
+  print(inputDouble);
+  print(doubleFromInt);
+  print(intFromDouble);
+  print(StringFromInt);
+  print(StringFromDouble);
 }

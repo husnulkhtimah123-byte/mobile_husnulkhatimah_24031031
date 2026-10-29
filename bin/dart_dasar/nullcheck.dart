@@ -3,7 +3,7 @@ void main() {
 
   // print('age masih null');
 
-     int? age = null;
+  int? age = null;
   if (age != null) {
     print(age.toDouble());
   }

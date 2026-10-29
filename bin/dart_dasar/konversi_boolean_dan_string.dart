@@ -1,7 +1,7 @@
 void main(){
   var inputString='true';
-  var inputbool=inputString=='true';
+  var inputBool=inputString=='true';
 
-  var stringfrombool=inputbool.toString();
-  print(stringfrombool);
+  var stringFromBool=inputBool.toString();
+  print(stringFromBool);
 }

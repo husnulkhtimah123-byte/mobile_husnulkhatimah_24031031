@@ -13,6 +13,6 @@ void main(){
    print('Anda Tidak Lulus');  
    break;
   default:
-   print('Anda Tidak Lulus');  
+   print('Mungkin Anda Salah Jurusan');  
 }
 }

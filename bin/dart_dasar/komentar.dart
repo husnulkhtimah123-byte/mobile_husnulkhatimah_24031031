@@ -1,5 +1,5 @@
 void main(){
-
+  //this is variable
   var name='Husnul Khatimah';
 
   /**

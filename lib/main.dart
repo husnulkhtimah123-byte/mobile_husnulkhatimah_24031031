@@ -93,7 +93,7 @@ class _HomePageState extends State<HomePage> {
       body: Center(
         child: selectedIndex == 0 // Apakah Beranda dipilih?
             ? Column(
-                mainAxisAlignment: MainAxisAlignment.centerleft,
+                mainAxisAlignment: MainAxisAlignment.center,
                 children: [
 
                   // TULISAN DI HALAMAN BERANDA

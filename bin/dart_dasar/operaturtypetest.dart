@@ -1,13 +1,13 @@
 void main(){
   dynamic variable=100;
 
-  var Variableint  =  variable as int;
+  var VariableInt  =  variable as int;
 
-  var isint = variable is int;
-  var isnotboolean = variable is! bool;
+  var isInt = variable is int;
+  var isNotBoolean = variable is! bool;
 
   print(variable);
-  print(Variableint); 
-  print(isint);
-  print(isnotboolean);
+  print(VariableInt); 
+  print(isInt);
+  print(isNotBoolean);
 }

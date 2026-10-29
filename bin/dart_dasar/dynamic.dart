@@ -2,7 +2,7 @@ void main(){
   dynamic variable=100;
   print(variable);
 
-  variable='true';
+  variable = true;
   print(variable);
 
   variable='husnul';
