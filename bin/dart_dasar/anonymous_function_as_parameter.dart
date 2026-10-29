@@ -1,25 +1,23 @@
-void main() {
-  // Anonymous function as Variable
-  String upperFunction(String name) {
-    return name.toUpperCase();
+void sayHello(String name, String Function(String) filter) {
+  var filteredName = filter(name);
+  print('Hi $filteredName');
 }
 
-  String lowerFunction(String name) => name.toLowerCase();
+void main() {
+  // Anonymous Function as Variable
+  var upperFunction = (String name) {
+    return name.toUpperCase();
+  };
 
-  print(upperFunction('husnul'));
-  print(lowerFunction('husnul'));
+  var lowerFunction = (String name) => name.toLowerCase();
+
+  print(upperFunction('Husnul'));
+  print(lowerFunction('Husnul'));
 
   // Anonymous Function as Parameter
   sayHello('Husnul Khatimah', (name) {
     return name.toUpperCase();
   });
-  
-  sayHello('Husnul Khatimah', (String name) => name.toLowerCase());
-}
 
-// Anonymous Function as Parameter
-void sayHello(String name, String Function(String) filter) {
-  var filteredName = filter(name);
-  // ignore: avoid_print
-  print('Hi $filteredName');
+  sayHello('Husnul Khatimah', (String name) => name.toLowerCase());
 }
